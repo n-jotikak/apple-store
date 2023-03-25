@@ -1,0 +1,113 @@
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightgoldenrodyellow;
+    }
+
+    .card-wrapper{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .feedback-form, .form-wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+
+    .feedback-form,.form-wrapper .question{
+      width: 50%;
+    }
+
+    .feedback-form .last{
+      width: 50%;
+    }
+
+    .comment-card-wrapper{
+      grid-template-columns: 1fr 1fr;
+    }
+  
+
+  
+  }
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: blanchedalmond;
+    }
+    header {
+      display: none;
+    }
+    section#sidenav {
+      left: 0;
+    }
+    main {
+      transition: all 500ms;
+      margin-left: 250px;
+    }
+
+    .feedback{
+      transition: all 500ms;
+      margin-left: 250px;
+    }
+  
+    .card-wrapper{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .comment-card-wrapper{
+      grid-template-columns: 1fr ;
+    }
+
+    footer{
+      margin-left: 250px;
+      transition: all 500ms;
+    }
+    
+
+  
+    
+  
+  }
+  
+  @media only screen and (min-width: 992px) {
+  
+    body {
+      background-color: beige;
+    }
+    
+    .comment-card-wrapper{
+      grid-template-columns: 1fr 1fr;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    body {
+      background-color: burlywood;
+    }
+
+    .card-wrapper{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .comment-card-wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .feedback-form-wrapper form ,.form-wrapper{
+      width: 100%;
+      padding: 15px;
+      gap: 25px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .question{
+      width: 300px;
+    }
+
+
+
+  }
