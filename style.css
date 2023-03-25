@@ -314,6 +314,7 @@ footer h2{
 }
 
 .link a{
+    font-size: 18px;
     display: grid;
     border-right: 2px solid grey;
     padding: 10px;
