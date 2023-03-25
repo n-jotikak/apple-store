@@ -306,7 +306,7 @@ footer h2{
 }
 
 .link {
-    font-size: 10px;
+    font-size: 18px;
     display: grid;
     grid-auto-flow: column;
     gap: 20px;
